@@ -1,0 +1,19 @@
+{
+    "flask":{
+        "host":"localhost",
+        "port":"5000"
+
+    },
+    "git" :{
+        "username" : "admin" ,
+        "password" : "VHyb6EJ-D_KBA4UhSpaB" ,
+        "projects_directory" : "hostingFolder/"
+    },
+    "mysql":{
+        "host":"172.24.2.8",
+        "root":"root",
+        "passwd":"1234",
+        "database":"gitlab2",
+        "port": 3306
+    }  
+}

@@ -1,0 +1,6 @@
+Flask==1.0.2
+PyMySQL==0.7.2
+# gitlab==1.0.2
+python-gitlab==1.9.0
+GitPython==2.1.13
+

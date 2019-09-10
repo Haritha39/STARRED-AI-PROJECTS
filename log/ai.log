@@ -1,0 +1,12 @@
+10-09-2019 17:36:06 - root - INFO - 
+
+
+10-09-2019 17:36:06 - root - INFO -  This is a constructor 
+10-09-2019 17:36:06 - root - INFO - Successfully Connected to Mysql Database
+10-09-2019 17:36:06 - werkzeug - INFO -  * Running on http://localhost:5000/ (Press CTRL+C to quit)
+10-09-2019 18:04:20 - root - INFO - 
+
+
+10-09-2019 18:04:20 - root - INFO -  This is a constructor 
+10-09-2019 18:04:20 - root - INFO - Successfully Connected to Mysql Database
+10-09-2019 18:04:21 - werkzeug - INFO -  * Running on http://localhost:5000/ (Press CTRL+C to quit)
