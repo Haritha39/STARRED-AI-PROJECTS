@@ -26,19 +26,11 @@ class databaseHelper(databaseConstants):
 
         tableName = databaseConstants.table_commit
         tableDesc = databaseConstants.table_commit_pid + " int," \
-                    +databaseConstants.table_commit_repo + " TEXT," \
-                    +databaseConstants.table_commit_project + " TEXT," \
-                    + databaseConstants.table_commit_branch + " TEXT," \
                     + databaseConstants.table_commit_time + " datetime," \
-                    +databaseConstants.table_commit_uid + " int," \
-                    + databaseConstants.table_commit_user + " TEXT," \
-                    +databaseConstants.table_commit_email + " TEXT," \
                     + databaseConstants.table_commit_cid + " TEXT," \
-                    +databaseConstants.table_commit_pipeline + " bool," \
-                    + databaseConstants.table_commit_status + " TEXT," \
-                    +databaseConstants.table_commit_jobs + " int"
+                    +databaseConstants.table_commit_lang + " TEXT," \
+                    + databaseConstants.table_commit_ai + " TEXT"
                     
-        
         try:
             self.cursor.execute( "CREATE TABLE IF NOT EXISTS "+ tableName + "("+ tableDesc + ")" )
             
@@ -64,16 +56,11 @@ class databaseHelper(databaseConstants):
     def insertIntoCommitTable( self , values ):
         tableName = databaseConstants.table_commit
         tableDesc = "("+databaseConstants.table_commit_pid + "," \
-                       +databaseConstants.table_commit_repo + "," \
-                       +databaseConstants.table_commit_project + "," \
-                           +databaseConstants.table_commit_branch + "," \
                        +databaseConstants.table_commit_time + "," \
-                       +databaseConstants.table_commit_uid + "," \
-                       +databaseConstants.table_commit_user + "," \
-                       +databaseConstants.table_commit_email + "," \
                        +databaseConstants.table_commit_cid + "," \
-                       +databaseConstants.table_commit_pipeline + ")" 
-        formatString = "(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
+                       +databaseConstants.table_commit_lang + "," \
+                       +databaseConstants.table_commit_ai + ")" 
+        formatString = "(%s,%s,%s,%s,%s)"
 
         try:   
             insert = self.cursor.execute("INSERT INTO "+ tableName + tableDesc + " VALUES " + formatString , values )     
@@ -84,7 +71,7 @@ class databaseHelper(databaseConstants):
     def updateCommitTable( self , setValues ):
 
         tableName = databaseConstants.table_commit
-        setColumns = databaseConstants.table_commit_pipeline + "=%s," + databaseConstants.table_commit_status + "=%s," + databaseConstants.table_commit_jobs + "=%s"
+        setColumns = databaseConstants.table_commit_lang + "=%s," + databaseConstants.table_commit_status + "=%s," + databaseConstants.table_commit_ai + "=%s"
         condition = databaseConstants.table_commit_cid
 
         try:

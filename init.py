@@ -8,6 +8,7 @@ import time
 
 app = Flask( __name__ )
 
+# Loading Configuration files
 with open('./config.json') as cfg:
     config = json.load(cfg)
 
@@ -15,6 +16,8 @@ logging.config.fileConfig('./logging.conf')
 logger = logging.getLogger("root")
 
 logger.info("\n\n")
+
+# Connecting to Mysql
 
 db_config = config["mysql"]
 
@@ -25,8 +28,8 @@ connectDB = retConnect( db_config , logger )
 def connection():
     request_data = request.get_json()
     try:
-        print( request_data ,type(request_data))
-        # res = aiCodeCommit( request_data , connectDB , logger , config )
+        # print( request_data ,type(request_data))
+        res = aiCodeCommit( request_data , connectDB , logger , config )
     except Exception as e:
         logger.error("init.py-commit_db.py-store()",e)
     logger.info("\n")

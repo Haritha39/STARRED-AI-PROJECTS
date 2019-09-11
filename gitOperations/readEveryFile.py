@@ -2,6 +2,7 @@ import os
 
 def read_file( gitInfo , requestData , logger ):
 
+    # Checking out each directory and sub directories and reading every file content
     try:
         project_id = requestData["project"]["id"]
         projects_main_dir = gitInfo["projects_directory"]

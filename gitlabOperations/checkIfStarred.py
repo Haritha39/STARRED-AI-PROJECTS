@@ -13,6 +13,7 @@ import pprint
 
 def checkStar( proj_id ,logger ):
 
+    # Checking if starred or not through rest request api call
     try:
         url = "http://192.168.4.219:30080/api/v4/projects/"+str( proj_id )
         headers = {'PRIVATE-TOKEN': 'APbpYKDXMkCUusHnCsXJ'}

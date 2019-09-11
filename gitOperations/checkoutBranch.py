@@ -2,6 +2,7 @@ from git import Repo
 
 def checkout_branch( gitInfo, requestData , logger ):
 
+    #  Checking out to the branch that appeared in commit information
     project_id = req_Data["project"]["id"]
     projects_main_dir = gitInfo["projects_directory"]
 

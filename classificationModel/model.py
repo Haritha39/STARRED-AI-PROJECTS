@@ -2,6 +2,7 @@ import json
 
 def checkCommit( data ):
 
+    # Segregating the project as ai or not ai
     try :
         dataset = open("scientificKeywords.txt","r")
         dataset = dataset.read()
