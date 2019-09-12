@@ -1,24 +1,31 @@
-import json
+import json , os
+from ast import literal_eval
 
-def checkCommit( data ):
+def checkCommit( data ,logger ):
+
+    cwd = os.getcwd() + "/classificationModel/"
+    # print(cwd)
+    os.chdir( cwd ) 
 
     # Segregating the project as ai or not ai
     try :
-        dataset = open("scientificKeywords.txt","r")
+        dataset = open("./scientificKeywords.txt","r")
         dataset = dataset.read()
-        dataset = json.loads( dataset )
-
+        # print(type(dataset))
+        dataset = eval( dataset )
+        # print( type( dataset ) )
         keys = dataset.keys()
         values = dataset.values()
 
-        print( type( dataset ))
-
         langCount = {}
+
+        # print("\n\n", data ,"\n\n" )
 
         for each in data:
             for eachKey in keys:
                 if( each in dataset[eachKey]):
                     if( each in langCount.keys() ):
+                        # print( each , eachKey , dataset[eachKey] )
                         langCount[each] = langCount[each] + 1
                     else:
                         langCount[each] = 1

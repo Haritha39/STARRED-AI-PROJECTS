@@ -1,12 +1,13 @@
 from git import Repo
+import os , git 
 
 def checkout_branch( gitInfo, requestData , logger ):
 
     #  Checking out to the branch that appeared in commit information
-    project_id = req_Data["project"]["id"]
+    project_id = requestData["project"]["id"]
     projects_main_dir = gitInfo["projects_directory"]
 
-    project_path = projects_main_dir + project_id
+    project_path = projects_main_dir + str(project_id)
     branch =  requestData["ref"].split("/")[-1]
 
     logger.info("read_queue.GitRepo.checkout_branch")

@@ -107,8 +107,10 @@ class databaseHelper(databaseConstants):
         try:
             if( values is not None ):
                 result = self.cursor.execute("SELECT "+ getColumns+" FROM " + tableName + " WHERE " + condition +"=%s" , (values) )     
+                result = self.cursor.fetchall()
             else:
-                result = self.cursor.execute( "SELECT *  FROM " + tableName )     
+                result = self.cursor.execute( "SELECT *  FROM " + tableName ) 
+                result = self.cursor.fetchall()    
             self.logger.info( " Data  is retireived from : {}".format(tableName) )
             return result
         except Exception as error:
@@ -140,4 +142,33 @@ class databaseHelper(databaseConstants):
         except Exception as error:
             self.logger.error("databaseHelperClass.py - Error in updateProjectStarsTable method :: {}".format(error) )
 
+    def createAITable( self ):
+
+        tableName = databaseConstants.table_ai
+        tableDesc = databaseConstants.table_ai_pid + " int," \
+                    +databaseConstants.table_ai_time + " datetime ," \
+                    +databaseConstants.table_ai_lang + " TEXT ," \
+                    +databaseConstants.table_ai_count + " int"
+                    
         
+        try:
+            self.cursor.execute( "CREATE TABLE IF NOT EXISTS "+ tableName + "("+ tableDesc + ")" )
+            
+            self.logger.info( " Table is created : {}".format(tableName) )
+        except Exception as error:
+            self.logger.error("databaseHelperClass.py - Error in createAITable method :: {}".format(error) )
+    
+    def insertIntoAITable( self , values ):
+        tableName = databaseConstants.table_ai
+        tableDesc = "("+databaseConstants.table_ai_pid + "," \
+                       +databaseConstants.table_ai_time + "," \
+                       +databaseConstants.table_ai_lang + "," \
+                       +databaseConstants.table_ai_count + ")" 
+        formatString = "(%s,%s,%s,%s)"
+
+        try:   
+            insert = self.cursor.execute("INSERT INTO "+ tableName + tableDesc + " VALUES " + formatString , values )     
+            self.logger.info( " Data  is inserted into : {}".format(tableName) )
+        except Exception as error:
+            self.logger.error("databaseHelperClass.py - Error in insertIntoAITable method :: {}".format(error) )
+

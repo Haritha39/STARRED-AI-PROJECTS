@@ -1,12 +1,586 @@
-10-09-2019 17:36:06 - root - INFO - 
+12-09-2019 16:47:03 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 16:47:03 - root - INFO -  successfully checked starred or not 
+12-09-2019 16:47:03 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 16:47:03 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7'
+12-09-2019 16:47:03 - root - ERROR - ERROR on cloing '7' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Haritha/http.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7' already exists and is not an empty directory.
+'
+12-09-2019 16:47:03 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 16:47:03 - root - INFO - checkout to 'ram' branch and changes are pulled successfully...
+12-09-2019 16:47:04 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 16:47:07 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 16:47:07 - root - ERROR -  classificationModel - model.py [Errno 2] No such file or directory: 'scientificKeywords.txt'
+12-09-2019 16:47:07 - root - INFO -  Table is created : commitInformation
+12-09-2019 16:47:07 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 16:47:07 - root - ERROR - gitOperations.steps.py - local variable 'ai' referenced before assignment
+12-09-2019 16:47:07 - root - INFO - 
+
+12-09-2019 16:47:07 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 16:47:07] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 16:49:29 - root - INFO - 
 
 
-10-09-2019 17:36:06 - root - INFO -  This is a constructor 
-10-09-2019 17:36:06 - root - INFO - Successfully Connected to Mysql Database
-10-09-2019 17:36:06 - werkzeug - INFO -  * Running on http://localhost:5000/ (Press CTRL+C to quit)
-10-09-2019 18:04:20 - root - INFO - 
+12-09-2019 16:49:29 - root - INFO -  This is a constructor 
+12-09-2019 16:49:29 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 16:49:29 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 16:49:42 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 16:49:42 - root - INFO -  successfully checked starred or not 
+12-09-2019 16:49:42 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 16:49:42 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7'
+12-09-2019 16:49:42 - root - ERROR - ERROR on cloing '7' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Haritha/http.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7' already exists and is not an empty directory.
+'
+12-09-2019 16:49:42 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 16:49:42 - root - INFO - checkout to 'ram' branch and changes are pulled successfully...
+12-09-2019 16:49:43 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 16:49:45 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 16:49:45 - root - ERROR -  classificationModel - model.py [Errno 2] No such file or directory: 'scientificKeywords.txt'
+12-09-2019 16:49:45 - root - INFO -  Table is created : commitInformation
+12-09-2019 16:49:45 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 16:49:45 - root - ERROR - gitOperations.steps.py - local variable 'ai' referenced before assignment
+12-09-2019 16:49:45 - root - INFO - 
+
+12-09-2019 16:49:45 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 16:49:45] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 16:51:25 - root - INFO - 
 
 
-10-09-2019 18:04:20 - root - INFO -  This is a constructor 
-10-09-2019 18:04:20 - root - INFO - Successfully Connected to Mysql Database
-10-09-2019 18:04:21 - werkzeug - INFO -  * Running on http://localhost:5000/ (Press CTRL+C to quit)
+12-09-2019 16:51:25 - root - INFO -  This is a constructor 
+12-09-2019 16:51:25 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 16:51:25 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 16:51:45 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 16:51:45 - root - INFO -  successfully checked starred or not 
+12-09-2019 16:51:45 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 16:51:45 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7'
+12-09-2019 16:51:45 - root - ERROR - ERROR on cloing '7' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Haritha/http.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7' already exists and is not an empty directory.
+'
+12-09-2019 16:51:45 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 16:51:45 - root - INFO - checkout to 'ram' branch and changes are pulled successfully...
+12-09-2019 16:51:45 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 16:51:48 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 16:51:48 - root - ERROR -  classificationModel - model.py 'str' object has no attribute 'keys'
+12-09-2019 16:51:48 - root - INFO -  Table is created : commitInformation
+12-09-2019 16:51:48 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 16:51:48 - root - ERROR - gitOperations.steps.py - local variable 'ai' referenced before assignment
+12-09-2019 16:51:48 - root - INFO - 
+
+12-09-2019 16:51:48 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 16:51:48] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 16:52:33 - root - INFO - 
+
+
+12-09-2019 16:52:33 - root - INFO -  This is a constructor 
+12-09-2019 16:52:33 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 16:52:33 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 16:52:46 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 16:52:46 - root - INFO -  successfully checked starred or not 
+12-09-2019 16:52:47 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 16:52:47 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7'
+12-09-2019 16:52:47 - root - ERROR - ERROR on cloing '7' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Haritha/http.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7' already exists and is not an empty directory.
+'
+12-09-2019 16:52:47 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 16:52:47 - root - INFO - checkout to 'ram' branch and changes are pulled successfully...
+12-09-2019 16:52:47 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 16:52:49 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 16:52:49 - root - ERROR -  classificationModel - model.py 'str' object has no attribute 'keys'
+12-09-2019 16:52:49 - root - INFO -  Table is created : commitInformation
+12-09-2019 16:52:50 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 16:52:50 - root - ERROR - gitOperations.steps.py - local variable 'ai' referenced before assignment
+12-09-2019 16:52:50 - root - INFO - 
+
+12-09-2019 16:52:50 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 16:52:50] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 16:54:00 - root - INFO - 
+
+
+12-09-2019 16:54:00 - root - INFO -  This is a constructor 
+12-09-2019 16:54:00 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 16:54:00 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 16:54:11 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 16:54:11 - root - INFO -  successfully checked starred or not 
+12-09-2019 16:54:11 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 16:54:11 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7'
+12-09-2019 16:54:11 - root - ERROR - ERROR on cloing '7' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Haritha/http.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7' already exists and is not an empty directory.
+'
+12-09-2019 16:54:11 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 16:54:12 - root - INFO - checkout to 'ram' branch and changes are pulled successfully...
+12-09-2019 16:54:12 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 16:54:14 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 16:54:14 - root - ERROR -  classificationModel - model.py 'str' object has no attribute 'keys'
+12-09-2019 16:54:14 - root - INFO -  Table is created : commitInformation
+12-09-2019 16:54:14 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 16:54:14 - root - ERROR - gitOperations.steps.py - local variable 'ai' referenced before assignment
+12-09-2019 16:54:14 - root - INFO - 
+
+12-09-2019 16:54:14 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 16:54:14] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 16:54:45 - root - INFO - 
+
+
+12-09-2019 16:54:45 - root - INFO -  This is a constructor 
+12-09-2019 16:54:45 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 16:54:45 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 16:54:57 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 16:54:57 - root - INFO -  successfully checked starred or not 
+12-09-2019 16:54:57 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 16:54:57 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7'
+12-09-2019 16:54:57 - root - ERROR - ERROR on cloing '7' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Haritha/http.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7' already exists and is not an empty directory.
+'
+12-09-2019 16:54:57 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 16:54:58 - root - INFO - checkout to 'ram' branch and changes are pulled successfully...
+12-09-2019 16:54:58 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 16:55:00 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 16:55:00 - root - ERROR -  classificationModel - model.py 'str' object has no attribute 'keys'
+12-09-2019 16:55:00 - root - INFO -  Table is created : commitInformation
+12-09-2019 16:55:00 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 16:55:00 - root - ERROR - gitOperations.steps.py - local variable 'ai' referenced before assignment
+12-09-2019 16:55:00 - root - INFO - 
+
+12-09-2019 16:55:00 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 16:55:00] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 16:56:33 - root - INFO - 
+
+
+12-09-2019 16:56:33 - root - INFO -  This is a constructor 
+12-09-2019 16:56:33 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 16:56:33 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 16:56:46 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 16:56:46 - root - INFO -  successfully checked starred or not 
+12-09-2019 16:56:46 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 16:56:46 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7'
+12-09-2019 16:56:46 - root - ERROR - ERROR on cloing '7' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Haritha/http.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7' already exists and is not an empty directory.
+'
+12-09-2019 16:56:46 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 16:56:46 - root - INFO - checkout to 'ram' branch and changes are pulled successfully...
+12-09-2019 16:56:46 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 16:56:49 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 16:56:49 - root - ERROR -  classificationModel - model.py 'str' object has no attribute 'keys'
+12-09-2019 16:56:49 - root - INFO -  Table is created : commitInformation
+12-09-2019 16:56:49 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 16:56:49 - root - ERROR - gitOperations.steps.py - local variable 'ai' referenced before assignment
+12-09-2019 16:56:49 - root - INFO - 
+
+12-09-2019 16:56:49 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 16:56:49] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 16:59:08 - root - INFO - 
+
+
+12-09-2019 16:59:08 - root - INFO -  This is a constructor 
+12-09-2019 16:59:08 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 16:59:08 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 16:59:20 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 16:59:20 - root - INFO -  successfully checked starred or not 
+12-09-2019 16:59:20 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 16:59:20 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7'
+12-09-2019 16:59:20 - root - ERROR - ERROR on cloing '7' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Haritha/http.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7' already exists and is not an empty directory.
+'
+12-09-2019 16:59:20 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 16:59:21 - root - INFO - checkout to 'ram' branch and changes are pulled successfully...
+12-09-2019 16:59:21 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 16:59:23 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 16:59:23 - root - ERROR -  classificationModel - model.py 'str' object has no attribute 'keys'
+12-09-2019 16:59:23 - root - INFO -  Table is created : commitInformation
+12-09-2019 16:59:23 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 16:59:23 - root - ERROR - gitOperations.steps.py - local variable 'ai' referenced before assignment
+12-09-2019 16:59:23 - root - INFO - 
+
+12-09-2019 16:59:23 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 16:59:23] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 17:05:24 - root - INFO - 
+
+
+12-09-2019 17:05:24 - root - INFO -  This is a constructor 
+12-09-2019 17:05:24 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 17:05:24 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 17:05:46 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 17:05:46 - root - INFO -  successfully checked starred or not 
+12-09-2019 17:05:46 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 17:05:46 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7'
+12-09-2019 17:05:46 - root - ERROR - ERROR on cloing '7' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Haritha/http.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7' already exists and is not an empty directory.
+'
+12-09-2019 17:05:46 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 17:05:46 - root - INFO - checkout to 'ram' branch and changes are pulled successfully...
+12-09-2019 17:05:46 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 17:05:48 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 17:05:48 - root - ERROR -  classificationModel - model.py 'str' object has no attribute 'keys'
+12-09-2019 17:05:48 - root - INFO -  Table is created : commitInformation
+12-09-2019 17:05:48 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 17:05:48 - root - ERROR - gitOperations.steps.py - local variable 'ai' referenced before assignment
+12-09-2019 17:05:48 - root - INFO - 
+
+12-09-2019 17:05:48 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 17:05:48] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 17:12:42 - root - INFO - 
+
+
+12-09-2019 17:12:42 - root - INFO -  This is a constructor 
+12-09-2019 17:12:42 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 17:12:43 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 17:13:12 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 17:13:12 - root - INFO -  successfully checked starred or not 
+12-09-2019 17:13:12 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 17:13:12 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7'
+12-09-2019 17:13:12 - root - ERROR - ERROR on cloing '7' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Haritha/http.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7' already exists and is not an empty directory.
+'
+12-09-2019 17:13:12 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 17:13:13 - root - INFO - checkout to 'ram' branch and changes are pulled successfully...
+12-09-2019 17:13:13 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 17:13:15 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 17:13:15 - root - INFO -  model is completed successfully 
+12-09-2019 17:13:15 - root - INFO -  Table is created : commitInformation
+12-09-2019 17:13:15 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 17:13:15 - root - INFO -  This is STARRED AI PROJECT 
+12-09-2019 17:13:15 - root - INFO - 
+
+12-09-2019 17:13:15 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 17:13:15] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 17:20:08 - root - INFO - 
+
+
+12-09-2019 17:20:08 - root - INFO -  This is a constructor 
+12-09-2019 17:20:08 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 17:20:08 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 17:20:38 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 17:20:38 - root - INFO -  successfully checked starred or not 
+12-09-2019 17:20:38 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 17:20:38 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7'
+12-09-2019 17:20:38 - root - ERROR - ERROR on cloing '7' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Haritha/http.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7' already exists and is not an empty directory.
+'
+12-09-2019 17:20:38 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 17:20:38 - root - INFO - checkout to 'ram' branch and changes are pulled successfully...
+12-09-2019 17:20:38 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 17:20:41 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 17:20:41 - root - INFO -  model is completed successfully 
+12-09-2019 17:20:41 - root - INFO -  Table is created : commitInformation
+12-09-2019 17:20:41 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 17:20:41 - root - INFO -  This is STARRED AI PROJECT 
+12-09-2019 17:20:41 - root - INFO - 
+
+12-09-2019 17:20:41 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 17:20:41] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 17:22:00 - root - INFO - 
+
+
+12-09-2019 17:22:00 - root - INFO -  This is a constructor 
+12-09-2019 17:22:00 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 17:22:00 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 17:22:18 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 17:22:18 - root - INFO -  successfully checked starred or not 
+12-09-2019 17:22:18 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 17:22:18 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7'
+12-09-2019 17:22:18 - root - ERROR - ERROR on cloing '7' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Haritha/http.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7' already exists and is not an empty directory.
+'
+12-09-2019 17:22:18 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 17:22:18 - root - INFO - checkout to 'ram' branch and changes are pulled successfully...
+12-09-2019 17:22:18 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 17:22:21 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 17:22:21 - root - INFO -  model is completed successfully 
+12-09-2019 17:22:21 - root - INFO -  Table is created : commitInformation
+12-09-2019 17:22:21 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 17:22:21 - root - INFO -  This is STARRED AI PROJECT 
+12-09-2019 17:22:21 - root - INFO - 
+
+12-09-2019 17:22:21 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 17:22:21] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 17:24:55 - root - INFO - 
+
+
+12-09-2019 17:24:55 - root - INFO -  This is a constructor 
+12-09-2019 17:24:55 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 17:24:55 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 17:25:08 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 17:25:08 - root - INFO -  successfully checked starred or not 
+12-09-2019 17:25:08 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 17:25:08 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7'
+12-09-2019 17:25:08 - root - ERROR - ERROR on cloing '7' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Haritha/http.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/7' already exists and is not an empty directory.
+'
+12-09-2019 17:25:08 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 17:25:08 - root - INFO - checkout to 'ram' branch and changes are pulled successfully...
+12-09-2019 17:25:08 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 17:25:10 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 17:25:10 - root - INFO -  model is completed successfully 
+12-09-2019 17:25:10 - root - INFO -  Table is created : commitInformation
+12-09-2019 17:25:10 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 17:25:10 - root - INFO -  This is STARRED AI PROJECT 
+12-09-2019 17:25:10 - root - INFO - 
+
+12-09-2019 17:25:10 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 17:25:10] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 17:39:57 - root - INFO - 
+
+
+12-09-2019 17:39:57 - root - INFO -  This is a constructor 
+12-09-2019 17:39:57 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 17:39:57 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 17:42:40 - root - INFO - 
+
+
+12-09-2019 17:42:40 - root - INFO -  This is a constructor 
+12-09-2019 17:42:40 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 17:42:40 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 17:45:02 - root - INFO - 
+
+
+12-09-2019 17:45:02 - root - INFO -  This is a constructor 
+12-09-2019 17:45:02 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 17:45:02 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 17:46:15 - root - INFO - 
+
+
+12-09-2019 17:46:15 - root - INFO -  This is a constructor 
+12-09-2019 17:46:15 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 17:46:15 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 17:46:57 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 17:46:57 - root - INFO -  successfully checked starred or not 
+12-09-2019 17:46:57 - root - INFO -  Data  is inserted into : project_stars
+12-09-2019 17:46:58 - root - INFO - clone msg : <git.Repo "/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6/.git">
+'6' project is cloned successfully... 
+12-09-2019 17:46:58 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 17:46:58 - root - INFO - checkout to 'Harsha' branch and changes are pulled successfully...
+12-09-2019 17:47:03 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 17:47:14 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 17:47:15 - root - INFO -  model is completed successfully 
+12-09-2019 17:47:15 - root - INFO -  Table is created : commitInformation
+12-09-2019 17:47:15 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 17:47:15 - root - INFO -  This is Not Starred AI project 
+12-09-2019 17:47:15 - root - INFO - 
+
+12-09-2019 17:47:15 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 17:47:15] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 17:53:02 - root - INFO - 
+
+
+12-09-2019 17:53:02 - root - INFO -  This is a constructor 
+12-09-2019 17:53:02 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 17:53:02 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 17:53:33 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 17:53:33 - root - INFO -  successfully checked starred or not 
+12-09-2019 17:53:33 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 17:53:33 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6'
+12-09-2019 17:53:33 - root - ERROR - ERROR on cloing '6' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Harsha/bootstrap.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6' already exists and is not an empty directory.
+'
+12-09-2019 17:53:33 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 17:53:34 - root - INFO - checkout to 'Harsha' branch and changes are pulled successfully...
+12-09-2019 17:53:39 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 17:53:50 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 17:53:50 - root - INFO -  model is completed successfully 
+12-09-2019 17:53:50 - root - INFO -  Table is created : commitInformation
+12-09-2019 17:53:50 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 17:53:50 - root - ERROR - gitOperations.steps.py - unsupported operand type(s) for +: 'int' and 'str'
+12-09-2019 17:53:50 - root - INFO - 
+
+12-09-2019 17:53:50 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 17:53:50] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 17:54:41 - root - INFO - 
+
+
+12-09-2019 17:54:41 - root - INFO -  This is a constructor 
+12-09-2019 17:54:41 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 17:54:41 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 17:54:55 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 17:54:55 - root - INFO -  successfully checked starred or not 
+12-09-2019 17:54:55 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 17:54:55 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6'
+12-09-2019 17:54:55 - root - ERROR - ERROR on cloing '6' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Harsha/bootstrap.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6' already exists and is not an empty directory.
+'
+12-09-2019 17:54:55 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 17:54:55 - root - INFO - checkout to 'Harsha' branch and changes are pulled successfully...
+12-09-2019 17:55:01 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 17:55:12 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 17:55:13 - root - INFO -  model is completed successfully 
+12-09-2019 17:55:13 - root - INFO -  Table is created : commitInformation
+12-09-2019 17:55:13 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 17:55:13 - root - INFO -  This is Not Starred AI project 
+12-09-2019 17:55:13 - root - INFO - 
+
+12-09-2019 17:55:13 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 17:55:13] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 18:01:05 - root - INFO - 
+
+
+12-09-2019 18:01:05 - root - INFO -  This is a constructor 
+12-09-2019 18:01:05 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 18:01:05 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 18:01:12 - root - INFO - 
+
+
+12-09-2019 18:01:12 - root - INFO -  This is a constructor 
+12-09-2019 18:01:12 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 18:01:12 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 18:01:29 - root - INFO - 
+
+
+12-09-2019 18:01:29 - root - INFO -  This is a constructor 
+12-09-2019 18:01:29 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 18:01:29 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 18:01:43 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 18:01:43 - root - INFO -  successfully checked starred or not 
+12-09-2019 18:01:44 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 18:01:44 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6'
+12-09-2019 18:01:44 - root - ERROR - ERROR on cloing '6' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Harsha/bootstrap.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6' already exists and is not an empty directory.
+'
+12-09-2019 18:01:44 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 18:01:44 - root - INFO - checkout to 'Harsha' branch and changes are pulled successfully...
+12-09-2019 18:01:49 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 18:02:00 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 18:02:00 - root - INFO -  model is completed successfully 
+12-09-2019 18:02:00 - root - INFO -  Table is created : commitInformation
+12-09-2019 18:02:00 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 18:02:00 - root - INFO -  This is Not Starred AI project 
+12-09-2019 18:02:00 - root - INFO - 
+
+12-09-2019 18:02:00 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 18:02:00] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 18:26:08 - root - INFO - 
+
+
+12-09-2019 18:26:08 - root - INFO -  This is a constructor 
+12-09-2019 18:26:08 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 18:26:08 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 18:27:04 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 18:27:04 - root - INFO -  successfully checked starred or not 
+12-09-2019 18:27:05 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 18:27:05 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6'
+12-09-2019 18:27:05 - root - ERROR - ERROR on cloing '6' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Harsha/bootstrap.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6' already exists and is not an empty directory.
+'
+12-09-2019 18:27:05 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 18:27:05 - root - INFO - checkout to 'Harsha' branch and changes are pulled successfully...
+12-09-2019 18:27:10 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 18:27:22 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 18:27:22 - root - INFO -  model is completed successfully 
+12-09-2019 18:27:22 - root - INFO -  Table is created : commitInformation
+12-09-2019 18:27:22 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 18:27:22 - root - INFO -  Table is created : ai_keys
+12-09-2019 18:27:22 - root - ERROR - gitOperations.steps.py - name 'key' is not defined
+12-09-2019 18:27:22 - root - INFO - 
+
+12-09-2019 18:27:22 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 18:27:22] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 18:27:56 - root - INFO - 
+
+
+12-09-2019 18:27:56 - root - INFO -  This is a constructor 
+12-09-2019 18:27:56 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 18:27:56 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 18:28:22 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 18:28:22 - root - INFO -  successfully checked starred or not 
+12-09-2019 18:28:22 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 18:28:22 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6'
+12-09-2019 18:28:22 - root - ERROR - ERROR on cloing '6' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Harsha/bootstrap.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6' already exists and is not an empty directory.
+'
+12-09-2019 18:28:22 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 18:28:22 - root - INFO - checkout to 'Harsha' branch and changes are pulled successfully...
+12-09-2019 18:28:27 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 18:28:39 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 18:28:39 - root - INFO -  model is completed successfully 
+12-09-2019 18:28:39 - root - INFO -  Table is created : commitInformation
+12-09-2019 18:28:39 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 18:28:39 - root - INFO -  Table is created : ai_keys
+12-09-2019 18:28:39 - root - ERROR - databaseHelperClass.py - Error in insertIntoAITable method :: (1241, 'Operand should contain 1 column(s)')
+12-09-2019 18:28:39 - root - INFO -  This is Not Starred AI project 
+12-09-2019 18:28:39 - root - INFO - 
+
+12-09-2019 18:28:39 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 18:28:39] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 18:34:36 - root - INFO - 
+
+
+12-09-2019 18:34:36 - root - INFO -  This is a constructor 
+12-09-2019 18:34:36 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 18:34:36 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 18:34:52 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 18:34:52 - root - INFO -  successfully checked starred or not 
+12-09-2019 18:34:52 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 18:34:52 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6'
+12-09-2019 18:34:52 - root - ERROR - ERROR on cloing '6' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Harsha/bootstrap.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6' already exists and is not an empty directory.
+'
+12-09-2019 18:34:52 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 18:34:52 - root - INFO - checkout to 'Harsha' branch and changes are pulled successfully...
+12-09-2019 18:34:58 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 18:35:10 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 18:35:10 - root - INFO -  model is completed successfully 
+12-09-2019 18:35:10 - root - INFO -  Table is created : commitInformation
+12-09-2019 18:35:10 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 18:35:10 - root - INFO -  Table is created : ai_keys
+12-09-2019 18:35:10 - root - ERROR - databaseHelperClass.py - Error in insertIntoAITable method :: (1241, 'Operand should contain 1 column(s)')
+12-09-2019 18:35:10 - root - INFO -  This is Not Starred AI project 
+12-09-2019 18:35:10 - root - INFO - 
+
+12-09-2019 18:35:10 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 18:35:10] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 18:36:35 - root - INFO - 
+
+
+12-09-2019 18:36:35 - root - INFO -  This is a constructor 
+12-09-2019 18:36:35 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 18:36:35 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 18:36:46 - root - INFO - 
+
+
+12-09-2019 18:36:46 - root - INFO -  This is a constructor 
+12-09-2019 18:36:46 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 18:36:46 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 18:37:01 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 18:37:01 - root - INFO -  successfully checked starred or not 
+12-09-2019 18:37:01 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 18:37:01 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6'
+12-09-2019 18:37:01 - root - ERROR - ERROR on cloing '6' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Harsha/bootstrap.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6' already exists and is not an empty directory.
+'
+12-09-2019 18:37:01 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 18:37:01 - root - INFO - checkout to 'Harsha' branch and changes are pulled successfully...
+12-09-2019 18:37:07 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 18:37:18 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 18:37:19 - root - INFO -  model is completed successfully 
+12-09-2019 18:37:19 - root - INFO -  Table is created : commitInformation
+12-09-2019 18:37:19 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 18:37:19 - root - INFO -  Table is created : ai_keys
+12-09-2019 18:37:19 - root - ERROR - databaseHelperClass.py - Error in insertIntoAITable method :: (1241, 'Operand should contain 1 column(s)')
+12-09-2019 18:37:19 - root - INFO -  This is Not Starred AI project 
+12-09-2019 18:37:19 - root - INFO - 
+
+12-09-2019 18:37:19 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 18:37:19] "[37mPOST /ai HTTP/1.1[0m" 200 -
+12-09-2019 18:38:17 - root - INFO - 
+
+
+12-09-2019 18:38:17 - root - INFO -  This is a constructor 
+12-09-2019 18:38:17 - root - INFO - Successfully Connected to Mysql Database
+12-09-2019 18:38:17 - werkzeug - INFO -  * Running on http://192.168.4.219:5000/ (Press CTRL+C to quit)
+12-09-2019 18:38:32 - root - INFO -  Data  is retireived from : project_stars
+12-09-2019 18:38:32 - root - INFO -  successfully checked starred or not 
+12-09-2019 18:38:32 - root - INFO -  Data  is updated in : project_stars
+12-09-2019 18:38:32 - root - ERROR - cloneProject.py error in creating directory : [Errno 17] File exists: '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6'
+12-09-2019 18:38:32 - root - ERROR - ERROR on cloing '6' project : Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v http://admin:BJ9DYU7Hmxyzs_7hzZdw@192.168.4.219:30080/Harsha/bootstrap.git /home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6
+  stderr: 'fatal: destination path '/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/6' already exists and is not an empty directory.
+'
+12-09-2019 18:38:32 - root - INFO - read_queue.GitRepo.checkout_branch
+12-09-2019 18:38:32 - root - INFO - checkout to 'Harsha' branch and changes are pulled successfully...
+12-09-2019 18:38:37 - root - INFO - gitOperations.readEveryFile.py - success
+12-09-2019 18:38:49 - root - INFO -  Prepocessing is completed successfully 
+12-09-2019 18:38:49 - root - INFO -  model is completed successfully 
+12-09-2019 18:38:49 - root - INFO -  Table is created : commitInformation
+12-09-2019 18:38:49 - root - INFO -  Data  is inserted into : commitInformation
+12-09-2019 18:38:49 - root - INFO -  Table is created : ai_keys
+12-09-2019 18:38:49 - root - ERROR - databaseHelperClass.py - Error in insertIntoAITable method :: (1241, 'Operand should contain 1 column(s)')
+12-09-2019 18:38:49 - root - INFO -  This is Not Starred AI project 
+12-09-2019 18:38:49 - root - INFO - 
+
+12-09-2019 18:38:49 - werkzeug - INFO - 10.0.1.2 - - [12/Sep/2019 18:38:49] "[37mPOST /ai HTTP/1.1[0m" 200 -

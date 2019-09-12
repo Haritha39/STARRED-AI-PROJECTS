@@ -1,13 +1,13 @@
 {
     "flask":{
-        "host":"localhost",
+        "host":"192.168.4.219",
         "port":"5000"
 
     },
     "git" :{
         "username" : "admin" ,
-        "password" : "VHyb6EJ-D_KBA4UhSpaB" ,
-        "projects_directory" : "hostingFolder/"
+        "password" : "BJ9DYU7Hmxyzs_7hzZdw" ,
+        "projects_directory" : "/home/haritha/Downloads/STARRED-AI-PROJECTS-master/hostingFolder/"
     },
     "mysql":{
         "host":"172.24.2.8",

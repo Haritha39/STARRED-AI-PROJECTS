@@ -23,6 +23,11 @@ db_config = config["mysql"]
 
 connectDB = retConnect( db_config , logger )
 
+@app.route("/" , methods = ["GET"])
+def rootfunction():
+    logger.info(" called root ")
+    return "Hello world"
+
 
 @app.route("/ai" , methods = ["GET" , "POST"])
 def connection():
