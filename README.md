@@ -7,7 +7,7 @@ Extraction of projects which are starred and belonging to artificial intelligenc
 - grafana
 - pip3 install config/requirements.txt
 ## Execution : 
-    python3 init.py >> output/output.csv
+    python3 init.py
 ## Flow of execution :
 1. Flask will start running on http://localhost:5000.
 2. /ai is the API triggered by webhook configured with push event . Here gitlab-ce used for testing purpose.
